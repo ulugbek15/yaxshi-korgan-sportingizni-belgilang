@@ -1,0 +1,170 @@
+.submit{
+    background-color: dodgerblue;
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    color: #fff;
+}
+.form{
+    background-color:mediumaquamarine;
+    width: 700px;
+    padding: 20px 15px;
+    margin: 30px auto;
+}
+.checkbox-control{
+    margin-right: 10px;
+    box-sizing: border-box;
+    display: flex;
+    border: 3px solid #fff;
+    background-color: #fff;
+    width: 26px;
+    height: 28px;
+}
+.checkbox:checked + .checkbox-control{
+    background-image: url(../img/table-tennis.png);
+}
+.checkbox{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip:rect(0 0 0 0);
+    overflow:hidden;
+}
+.oppo{
+    display: flex;
+}
+.checkbox-golland{
+    margin-right: 10px;
+    box-sizing: border-box;
+    display: flex;
+    border: 3px solid #fff;
+    background-color: #fff;
+    width: 28px;
+    height: 28px;
+}
+.checkbox-city{
+    margin-right: 10px;
+    box-sizing: border-box;
+    display: flex;
+    border: 3px solid #fff;
+    background-color: #fff;
+    width: 28px;
+    height: 30px;
+}
+.checkbox-bould{
+    margin-right: 10px;
+    box-sizing: border-box;
+    display: flex;
+    border: 3px solid #fff;
+    background-color: #fff;
+    width: 28px;
+    height: 30px;
+}
+.checkbox:checked + .checkbox-city{
+    background-image: url(../img/basketball-ball.png);
+}
+.checkbox:checked + .checkbox-bould{
+    background-image: url(../img/volleyball-ball.png);
+}
+.checkbox:checked + .checkbox-golland{
+    background-image: url(../img/hockey-puck.png);
+}
+.checkbox-portugal{
+    margin-right: 10px;
+    box-sizing: border-box;
+    display: flex;
+    border: 3px solid #fff;
+    background-color: #fff;
+    width: 26px;
+    height: 28px;
+}
+.checkbox-dowloand{
+    margin-right: 10px;
+    box-sizing: border-box;
+    display: flex;
+    border: 3px solid #fff;
+    background-color: #fff;
+    width: 28px;
+    height: 30px;
+}
+.checkbox-could{
+    margin-right: 10px;
+    box-sizing: border-box;
+    display: flex;
+    border: 3px solid #fff;
+    background-color: #fff;
+    width: 28px;
+    height: 30px;
+}
+.checkbox-german{
+    margin-right: 10px;
+    box-sizing: border-box;
+    display: flex;
+    border: 3px solid #fff;
+    background-color: #fff;
+    width: 28px;
+    height: 28px;
+}
+.checkbox:disabled + .checkbox-german{
+    background-image: url(../img/hockey-puck.png);
+    opacity: 0.7;
+}
+.checkbox:disabled + .checkbox-dowloand{
+    background-image: url(../img/basketball-ball.png);
+    opacity: 0.7;
+}
+.checkbox:disabled + .checkbox-portugal{
+    background-image: url(../img/table-tennis.png);
+    opacity: 0.5;
+}
+.checkbox:disabled + .checkbox-could{
+    background-image: url(../img/volleyball-ball.png);
+    opacity: 0.7;
+}
+.checkbox:disabled ~ .checkbox-p{
+    opacity: 0.5;
+}
+.welcome{
+    background-color: red;
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    color: #fff;
+}
+.yulop{
+    background-color:gold;
+    width: 700px;
+    padding: 20px 15px;
+    margin: 30px auto;
+}
+.checkbox:disabled ~ .checkbox-h{
+    opacity: 0.5;
+}
+.checkbox:disabled + .checkbox-turk{
+    opacity: 0.7;
+}
+.checkbox-turk{
+    margin-right: 10px;
+    box-sizing: border-box;
+    display: flex;
+    border: 3px solid #fff;
+    background-color: #fff;
+    width: 26px;
+    height: 28px;
+}
+.brazil{
+    background-color:turquoise;
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    color: #fff;
+}
+.argentin{
+    background-color:magenta;
+    width: 700px;
+    padding: 20px 15px;
+    margin: 30px auto;
+}
