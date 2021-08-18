@@ -21,7 +21,7 @@
     height: 28px;
 }
 .checkbox:checked + .checkbox-control{
-    background-image: url(../img/table-tennis.png);
+    background-image: url(http://picsum.photos/50);
 }
 .checkbox{
     position: absolute;
@@ -64,13 +64,13 @@
     height: 30px;
 }
 .checkbox:checked + .checkbox-city{
-    background-image: url(../img/basketball-ball.png);
+    background-image: url(http://picsum.photos/50);
 }
 .checkbox:checked + .checkbox-bould{
-    background-image: url(../img/volleyball-ball.png);
+    background-image: url(http://picsum.photos/50);
 }
 .checkbox:checked + .checkbox-golland{
-    background-image: url(../img/hockey-puck.png);
+    background-image: url(http://picsum.photos/50);
 }
 .checkbox-portugal{
     margin-right: 10px;
@@ -109,19 +109,19 @@
     height: 28px;
 }
 .checkbox:disabled + .checkbox-german{
-    background-image: url(../img/hockey-puck.png);
+    background-image: url(http://picsum.photos/50);
     opacity: 0.7;
 }
 .checkbox:disabled + .checkbox-dowloand{
-    background-image: url(../img/basketball-ball.png);
+    background-image: url(http://picsum.photos/50);
     opacity: 0.7;
 }
 .checkbox:disabled + .checkbox-portugal{
-    background-image: url(../img/table-tennis.png);
+    background-image: url(http://picsum.photos/50);
     opacity: 0.5;
 }
 .checkbox:disabled + .checkbox-could{
-    background-image: url(../img/volleyball-ball.png);
+    background-image: url(http://picsum.photos/50);
     opacity: 0.7;
 }
 .checkbox:disabled ~ .checkbox-p{
